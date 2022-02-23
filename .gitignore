@@ -1,0 +1,10 @@
+/venv
+/.idea
+/ztest
+*.pyc
+*.npy
+*.model
+wd_def_for_website_En.json
+wd_def_for_website_zh.json
+word2synset_synset.txt
+word_synsetWords.txt

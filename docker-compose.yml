@@ -1,0 +1,15 @@
+version: "2"
+services:
+    agent_service:
+        build:
+            context: ./WantWords/
+            dockerfile: Dockerfile
+        image: WantWords_server_image
+        container_name: WantWords_server_container
+        restart: always
+        volumes:
+            - ./:/app
+        expose:
+            - 8000
+        ports:
+            - "8000:8000"

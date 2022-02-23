@@ -1,0 +1,5 @@
+Django==3.2.2
+drf_yasg
+django-cors-headers
+thulac
+pytorch_transformers

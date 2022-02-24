@@ -7,8 +7,6 @@ services:
         image: want_words_server_image
         container_name: want_words_server_container
         restart: always
-        volumes:
-            - ./:/app
         expose:
             - 8000
         ports:

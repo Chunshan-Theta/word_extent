@@ -4,10 +4,10 @@ EXPOSE 8000
 
 
 WORKDIR /app
-ADD . /app
+ADD ./manage.py /app
 
 #Using pip:
-RUN python -m pip install -r requirements.txt
+#RUN python -m pip install -r requirements.txt
 #RUN apt-get update
 
 #CMD /bin/bash

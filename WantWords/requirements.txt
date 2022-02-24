@@ -3,3 +3,5 @@ drf_yasg
 django-cors-headers
 thulac
 pytorch_transformers
+scikit-learn==0.24.2
+

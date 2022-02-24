@@ -10,5 +10,5 @@ ADD . /app
 RUN python -m pip install -r requirements.txt
 #RUN apt-get update
 
-CMD /bin/bash
-CMD python3 manage.py runserver 0.0.0.0:8000 --noreload
+#CMD /bin/bash
+CMD python manage.py runserver 0.0.0.0:8000 --noreload

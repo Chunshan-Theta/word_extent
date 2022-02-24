@@ -1,11 +1,11 @@
 version: "2"
 services:
-    agent_service:
+    words_service:
         build:
-            context: ./WantWords/
+            context: ./WantWords
             dockerfile: Dockerfile
-        image: WantWords_server_image
-        container_name: WantWords_server_container
+        image: want_words_server_image
+        container_name: want_words_server_container
         restart: always
         volumes:
             - ./:/app
